@@ -1,0 +1,172 @@
+body{
+    font-family: Helvetica;
+    background: url("bg.png");
+    margin: 0;
+    padding: 0;
+}
+
+.gifs-list {
+    column-count: 2;
+    margin: -5px;
+    column-gap: 10px;
+}
+
+.gif-item {
+    display: inline-block;
+    width: 200px;
+    margin: 5px;
+    position: relative;
+}
+
+.git_item__img{
+    box-shadow: 2px 2px #aaa;
+    border-radius: 3px;
+}
+
+.content{
+    width: 420px;
+    margin: 20px auto;
+}
+
+.header{
+    text-align: center;
+    padding: 5px 0;
+    background: #cbe5d8;
+    color: #fff;
+    font-size: 24px;
+    border-bottom: solid 3px #1c9e83;
+}
+
+.header__title{
+    display: none;
+    color: #1c9e83;
+    font-weight: bold;
+}
+
+.header__and{
+    color: #fff;
+}
+
+.header__logo{
+    width: 110px;
+    height: 110px;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+}
+
+.header__logo_dog{
+}
+
+.header__logo_cat{
+}
+
+.footer{
+    padding: 20px;
+    text-align: center;
+    color: #18bc9c;
+    font-weight: bold;
+}
+
+.footer__love{
+    color: red;
+}
+
+.paging{
+    text-align: center;
+    padding: 50px 0 10px 0;
+}
+
+.paging-btn{
+    width: 160px;
+    margin: 0 10px;
+    color: #fff;
+    background-color: #b84d45;
+    display: inline-block;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 10px 25px;
+    font-size: 14px;
+    line-height: 1.25;
+    border-radius: 3px;
+    transition: background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+    border-bottom: 3px solid #933d37;
+    cursor: pointer;
+}
+
+.paging-btn:hover {
+    color: #fff;
+    background-color: #9c413b;
+    border-color: #933d37;
+}
+
+.paging-btn:disabled{
+    opacity: .85;
+    pointer-events: none;
+}
+
+.gif-detail{
+    text-align: center;
+}
+
+.gif-detail__img{
+    box-shadow: 2px 2px 4px #aaa;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.gif-detail__title{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #545454;
+}
+
+.gif-detail__input{
+    width: 400px;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 15px;
+    border: solid 1px #ccc;
+}
+
+.joke{
+    padding: 10px 20px;
+    background: #F5F5F5;
+    color: #212529;
+    font-style: italic;
+    margin-bottom: 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    line-height: 18px;
+}
+
+@media (min-width: 768px) {
+    .header {
+        padding: 20px 0;
+    }
+
+    .content{
+        width: 650px;
+        margin: 20px auto;
+    }
+
+    .gifs-list {
+        column-count: 3;
+        margin: -5px;
+        column-gap: 10px;
+    }
+
+    .header__logo{
+        width: 80px;
+        height: 80px;
+    }
+
+    .header__title{
+        display: block;
+    }
+}
