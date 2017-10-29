@@ -1,9 +1,3 @@
-/*
-Shkolovy Artem
-Swrve interview task
-October 2017
-*/
-
 const {
   HashRouter,
   Switch,
